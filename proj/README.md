@@ -27,7 +27,7 @@ the underlying LLM's general knowledge.
 | `Assignment- DRCs - 2026-27.docx` | Selection assignment for Department Research Coordinator applicants |
 | `SAC-Constitution-March-2018.pdf` | IIT Bombay Students' Gymkhana Constitution (81 pages; the umbrella governance document EnPoWER and every other council operates under) |
 
-7 source documents, comfortably over the 5-document minimum.
+7 source documents
 
 ## 2. Architecture
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 cp .env.example .env            # then paste your Anthropic API key into .env
 ```
 
-The first run of `build_index.py` downloads the small (~90 MB)
+The first run of `build_index.py` downloads the small
 `all-MiniLM-L6-v2` embedding model from Hugging Face — this requires normal
 internet access.
 
